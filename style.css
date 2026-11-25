@@ -26,3 +26,71 @@ body {
         "box-5 box-6 box-3 box-7 box-8"
         "box-5 box-9 box-10 box-10 box-8";
 }
+
+
+/* Laptops */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-areas:
+            "box-1 box-2 box-3"
+            "box-1 box-2 box-3"
+            "box-4 box-4 box-3"
+            "box-4 box-4 box-8"
+            "box-5 box-6 box-8"
+            "box-5 box-7 box-9"
+            "box-10 box-10 box-9";
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+            "box-1 box-2 box-3"
+            "box-1 box-2 box-3"
+            "box-4 box-4 box-3"
+            "box-4 box-4 box-8"
+            "box-5 box-6 box-8"
+            "box-5 box-7 box-9"
+            "box-10 box-10 box-9";
+    }
+}
+
+/* Phones */
+@media (max-width: 425px) {
+    .grid-container {
+        grid-template-areas:
+            "box-1 box-2"
+            "box-1 box-2"
+            "box-3 box-5"
+            "box-3 box-5"
+            "box-3 box-6"
+            "box-4 box-4"
+            "box-4 box-4"
+            "box-7 box-8"
+            "box-9 box-8"
+            "box-10 box-10";
+    }
+}
+
+@media (max-width: 375px) {
+    .grid-container {
+        grid-template-areas:
+            "box-1"
+            "box-1"
+            "box-2"
+            "box-2"
+            "box-3"
+            "box-3"
+            "box-3"
+            "box-4"
+            "box-5"
+            "box-5"
+            "box-6"
+            "box-7"
+            "box-8"
+            "box-8"
+            "box-9"
+            "box-10";
+    }
+}
